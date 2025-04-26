@@ -1,4 +1,5 @@
 export { createForm } from "./factory"
+export { createErrorsMap } from "./utils"
 export { useForm, useField } from "./react-hooks"
 export {
     AnyFormValues,
@@ -13,5 +14,5 @@ export {
     ValidationEvent,
     ValidationResult,
     FormValues,
-    Form
+    Form,
 } from "./types"
